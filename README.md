@@ -50,12 +50,12 @@ windows
 - const token = ref('')
 - const qqdata = ref({})
 
-- // QC.Login.getMe Function 无 回调函数 function(openId, accessToken)
-- // openId：用户身份的唯一标识。建议保存在本地，以便用户下次登录时可对应到其之前的身份信息，不需要重新授权。
-- // accessToken：表示当前用户在此网站 / 应用的登录状态与授权信息，建议保存在本地。
-- // 注意： getMe 方法只能在用户登录授权后调用，建议总是在使用 check 方法并返回 true 的条件下，调用 getMe 方法
--
-- // 拿取 openID 和这个授权信息
+- QC.Login.getMe Function 无 回调函数 function(openId, accessToken)
+- openId：用户身份的唯一标识。建议保存在本地，以便用户下次登录时可对应到其之前的身份信息，不需要重新授权。
+- accessToken：表示当前用户在此网站 / 应用的登录状态与授权信息，建议保存在本地。
+- 注意： getMe 方法只能在用户登录授权后调用，建议总是在使用 check 方法并返回 true 的条件下，调用 getMe 方法
+
+- 拿取 openID 和这个授权信息
 - QC.Login.getMe((openId, accessToken) => {
 -     console.log(openId, 'openid');
 -     uniodId.value = openId;
