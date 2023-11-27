@@ -27,7 +27,9 @@ windows
 
 # 3. 在 index.html 引入 js
 
-> <script src="http://connect.qq.com/qc_jssdk.js" data-appid="100556005" data-redirecturi="http://www.corho.com:8080/#/login/callback"></script>
+ <script src="http://connect.qq.com/qc_jssdk.js"
+ data-appid="100556005"
+data-redirecturi="http://www.corho.com:8080/#/login/callback"></script>
 
 # 4. 调用方法
 

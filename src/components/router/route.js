@@ -6,7 +6,8 @@ const router = createRouter({
     routes: [
         { path: '/', redirect: '/login' },
         { path: '/login', component: login },
-        { path: '/login/callback', component: () => import('../callback.vue') }
+        { path: '/login/callback', component: () => import('../callback.vue') },
+        { path: '/weixin', component: () => import('../weixin.vue') }
     ]
 })
 export default router
